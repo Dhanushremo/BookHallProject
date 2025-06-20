@@ -1,0 +1,79 @@
+.home-container {
+  background: linear-gradient(135deg, #fffaf1, #fef6e4);
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section h1 {
+  font-size: 48px;
+  color: #3e1f05;
+}
+
+.text-section p {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #4e342e;
+}
+
+.explore-btn {
+  padding: 12px 30px;
+  background: #ff8c42;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.explore-btn:hover {
+  transform: scale(1.05);
+}
+
+.features {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #fff1cc;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
